@@ -1,12 +1,12 @@
 package Data;
 
 public class DbConfig {
-    private String dbname = "personalNotes";
-    private String password = "rollerrocker88";
-    private String user = "postgres";
+    private String dbname = "";
+    private String password = "";
+    private String user = "";
 
-    private String host = "localhost";
-    private int port = 5432;
+    private String host = "";
+    private int port = 0;
 
     public String getDbname() {
         return dbname;
